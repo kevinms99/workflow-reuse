@@ -13,4 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Call Reusable Workflow
-        uses: ./reuse.yml
+        uses: ./.github/reuse.yml
