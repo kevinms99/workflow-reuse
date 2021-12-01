@@ -12,5 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Info
+        run: cwd
+      - name: Dir
+        run: dir
       - name: Call Reusable Workflow
         uses: ./.github/reuse.yml
