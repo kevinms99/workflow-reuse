@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Info
-        run: cwd
+        run: pwd
       - name: Dir
         run: dir
       - name: Call Reusable Workflow
