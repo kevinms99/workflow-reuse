@@ -17,4 +17,4 @@ jobs:
       - name: Dir
         run: dir
       - name: Call Reusable Workflow
-        uses: ./.github/reuse.yml
+        uses: ./.github/reuse
