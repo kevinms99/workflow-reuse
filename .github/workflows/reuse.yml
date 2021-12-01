@@ -1,0 +1,9 @@
+name: Reusable workflow
+
+on:
+  workflow_call
+
+jobs:
+  do_something:
+    name: Do Something
+    run: echo Hello
