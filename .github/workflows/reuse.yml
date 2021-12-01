@@ -6,4 +6,5 @@ on:
 jobs:
   do_something:
     name: Do Something
-    run: echo Hello
+    steps:
+      - run: echo Hello
